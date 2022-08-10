@@ -219,7 +219,8 @@ a{
     height: 80vh;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 #mainPageDescriptionDiv{
     display: flex;
@@ -247,6 +248,7 @@ a{
 #mainPageImageDiv{
     width: 60%;
     height: 100%;
+    padding-top: 2%;
 }
 #mainPageImage{
     width: 80%;
@@ -361,7 +363,7 @@ a{
     text-align: initial;
     /* padding-top: 10%;
     margin-left: 20%; */
-    font-weight: bold;
+    font-weight: 400;
     font-family: monospace;
     font-size: 1.5em;
 
@@ -638,7 +640,7 @@ a{
 }
 .footerPageText2{
     margin: 0;
-    margin-bottom: 00.1em;
+    margin-bottom: 00.5em;
 }
 
 .footerPageText3{
@@ -729,6 +731,7 @@ a{
     }
     .container .card{
         width: 100%;
+        margin-bottom: 5%;
     }
     #footerPageSocialDiv{
         width: 50%;
