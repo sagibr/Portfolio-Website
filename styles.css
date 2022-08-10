@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     color: white;
 }
@@ -28,14 +31,22 @@ a{
     z-index: 999;
     width: 100%;
   }
+  #headerDiv{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+  }
   
   .menu {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-right: 3%;
+    width: 60%;
   }
   
   .menu > li {
@@ -661,33 +672,57 @@ a{
     h1{
         text-align: center;
     }
+    a{
+        margin: 3px;
+    }
+    #mainPage{
+        display: block;
+    }
     #headerTitle{
         font-size: 1.5em;
     }
     #mainPageDescriptionDiv{
         justify-content: space-around;
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        
     }
     #mainPageDescriptionButton{
-        width: 70%;
+        width: 100%;
     }
     .mainPageDescriptionTitle{
-        font-size: 2em;
+        font-size: 3em;
     }
     #mainPageImageDiv{
         height: 80%;
         margin-top: 10%;
+        display: none;
     }
     #aboutPage{
         height: 80vh;
+        margin-bottom: 15%;
     }
     #aboutPageTitleDiv{
         justify-content: space-evenly;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    #aboutPageTitle{
+        text-align: center;
+        margin: 0;
+    }
+    #aboutPageDescription{
+        text-align: center;
     }
     #aboutPageDescriptionButton{
         width: 100%;
     }
-    #aboutPageImage{
-        margin-top: 65%;
+    #aboutPageImageDiv{
+        display: none;
     }
     .container{
         flex-direction: column;
@@ -696,13 +731,17 @@ a{
         width: 100%;
     }
     #footerPageSocialDiv{
-        width: 30%;
+        width: 50%;
     }
 
 
     .top-nav{
         justify-content: space-between;
-    }
+   }
+   #hireMePageButton{
+        width: 50%;
+        height: 20%;
+   }
 }
 
 
